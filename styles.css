@@ -10,7 +10,7 @@ background-color: goldenrod;
      position: relative;
     animation-name: circle;
     animation-duration: 10s;
-    animation-iteration-count: 2i;
+    animation-iteration-count: 2;
     animation-delay: 5s;
     animation-direction:alternate ;
     animation-timing-function: ease-in;
@@ -42,5 +42,6 @@ background-color: goldenrod;
         left: 0px;
         top: 0px;
     }
+
 
 }
