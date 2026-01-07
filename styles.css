@@ -1,0 +1,46 @@
+body{
+background-color: goldenrod;
+}
+.container{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 30px 50px 20px gray;
+     position: relative;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: 2i;
+    animation-delay: 5s;
+    animation-direction:alternate ;
+    animation-timing-function: ease-in;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes circle {
+    0%{
+        background-color: rgb(202, 135, 48);
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: rgb(90, 176, 238);
+        left: 500px;
+        top: 0px;
+    }
+    50%{
+          background-color: rgb(210, 30, 129);
+         left: 500px;
+         top: 200px;
+    }
+    70%{
+        background-color: aquamarine;
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        background-color: brown;
+        left: 0px;
+        top: 0px;
+    }
+
+}
